@@ -16,7 +16,7 @@ function App() {
 
 
   useEffect(() => {
-    const wss = new WebSocket("https://2csw0m35-8000.inc1.devtunnels.ms/")
+    const wss = new WebSocket("ws://localhost:8080");
     wss.onmessage = (e) => {
       setmessage(m => [...m, e.data])
     }
