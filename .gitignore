@@ -1,0 +1,44 @@
+# Dependencies
+be/node_modules/
+ws-fe/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+be/dist/
+ws-fe/dist/
+be/build/
+ws-fe/build/
+*.tsbuildinfo
+
+# Environment variables
+be/.env
+ws-fe/.env
+be/.env.local
+ws-fe/.env.local
+be/.env.*.local
+ws-fe/.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+be/logs/
+ws-fe/logs/
+*.log
+
+# Testing
+be/coverage/
+ws-fe/coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+.cache/
